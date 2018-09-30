@@ -1,0 +1,88 @@
+/* Color Palette
+#041B15 dark bluegreen
+#136F63 greyblue
+#22AAA1 blue
+#4CE0D2 blue grey
+#84CAE7 grey
+-----------*/
+
+
+/* Global styles 
+--------------------------*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #041B15;
+}
+h1, h2 {
+    font-family: 'Caveat', cursive;
+}
+h1 {
+    font-size: 45px;
+}
+h2 {
+    font-size: 40px;
+    margin: 0;
+}
+.content-wraper {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+/* Header and footer
+-------------------------*/
+header, footer {
+    background: #041B15;   
+}
+/* Header */
+header h1 {
+    color: #4CE0D2;
+}
+header h3 {
+    color: #22AAA1; 
+}
+
+
+/* Summary
+-------------------------*/
+.summary {
+    background: #136F63; 
+}
+
+
+/* Experience 
+-------------------------*/
+.experience {
+    background: #22AAA1; 
+}
+.experience a {
+    color: black;
+}
+
+/* Education
+-------------------------*/
+.education {
+    background: #4CE0D2; 
+}
+
+/* Footer */
+footer h4 {
+    color: #22AAA1; 
+}
+footer h2, h4, h6 {
+    text-align: center;
+}
+/* Additional Informtion
+-------------------------*/
+.addinfo {
+    background: #84CAE7; 
+}
+.social a {
+    color:  #22AAA1;
+}
+
+
+
+
+
+
