@@ -35,8 +35,13 @@ header, footer {
     background: #041B15;   
 }
 /* Header */
+.profileImg {
+    width: 300px;
+    border-radius: 50%;
+}
 header h1 {
     color: #4CE0D2;
+    margin: 0;
 }
 header h3 {
     color: #22AAA1; 
