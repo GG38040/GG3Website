@@ -27,6 +27,15 @@ h2 {
     width: 1000px;
     margin: 0 auto;
     padding: 5px;
+    padding-top: 50px;
+}
+
+.btn {
+    text-decoration: none;
+    background: red;
+    color: white;
+    padding: 5px;
+   
 }
 
 /* Header and footer
@@ -34,12 +43,36 @@ h2 {
 header, footer {
     background: #041B15;   
 }
+
 /* Header */
+
+/* Navigation */
+
+nav {
+    background: white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#4CE0D2;
+}
+
 .profileImg {
     width: 300px;
     border-radius: 50%;
 }
 header {
+    padding-top: 50px;
     text-align: center;
 }
 header h1 {
