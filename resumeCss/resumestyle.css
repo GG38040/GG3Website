@@ -9,9 +9,15 @@
 
 /* Global styles 
 --------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 body {
     font-family: 'Open Sans', sans-serif;
-    background: #041B15;
+    /* background: #041B15; */
 }
 h1, h2 {
     font-family: 'Caveat', cursive;
@@ -28,13 +34,15 @@ h2 {
     margin: 0 auto;
     padding: 5px;
     padding-top: 50px;
+    overflow: hidden;
 }
 
 .btn {
     text-decoration: none;
     background: red;
     color: white;
-    padding: 5px;
+    padding: 10px;
+    display: inline-block;
    
 }
 
@@ -72,8 +80,9 @@ nav a {
     border-radius: 50%;
 }
 header {
-    padding-top: 50px;
+    padding-top: 25px;
     text-align: center;
+    position: relative;
 }
 header h1 {
     color: #4CE0D2;
@@ -81,6 +90,11 @@ header h1 {
 }
 header h3 {
     color: #22AAA1; 
+}
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 
@@ -118,8 +132,20 @@ footer h2, h4, h6 {
 .addinfo {
     background: #84CAE7; 
 }
-.social a {
+.social a { 
     color:  #22AAA1;
+}
+
+/*Media Queries
+------------------------*/
+
+@media (max-width: 900px) {
+    header {
+        text-align: center;
+    }
+    .profileImg {
+       width: 200px; 
+    }
 }
 
 
